@@ -113,6 +113,7 @@ extension ViewController: WeatherManagerDelegate {
             self.cloudinessLabel.text = "\(weather.cloudiness)%"
             self.sunriseLabel.text = "\(weather.sunriseTime)"
             self.sunsetLabel.text = "\(weather.sunsetTime)"
+            print(weather.sunriseTime)
         }
     }
     
