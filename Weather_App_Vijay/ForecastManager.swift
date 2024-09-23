@@ -14,7 +14,8 @@ protocol ForecastManagerDelegate {
 }
 
 struct ForecastManager {
-    let forecastURL = "https://api.openweathermap.org/data/2.5/forecast?appid=fd0e1cac8f3e6c9f3f77728bc2192b46&units=metric"
+    
+    let forecastURL = "https://api.openweathermap.org/data/2.5/forecast?appid=yourapikey&units=metric"
     var delegate: ForecastManagerDelegate?
     
     func fetchForecast(cityName: String) {
